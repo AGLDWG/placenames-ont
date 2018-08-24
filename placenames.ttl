@@ -8,6 +8,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @base <http://linked.data.gov.au/def/placenames#> .
 
 <http://linked.data.gov.au/def/placenames#> rdf:type owl:Ontology .
@@ -15,6 +16,8 @@
 <http://linked.data.gov.au/def/placenames#> rdf:type owl:Ontology ;
                 vann:preferredNamespaceUri "http://linked.data.gov.au/def/placenames#"^^xsd:string ;
                 dc:creator "Armin Haller" , "Irina Bastrakova" ;
+                dc:contributor "Nicholas Car" ;
+                dct:contributor <http://orcid.org/0000-0002-8742-7730> ;
                 rdfs:label "Place Names Ontology"@en ;
                 rdfs:comment "This ontology describes Place names that are used in the Composite Gazetteer of Australia. Place names are natural and artificial features and are all represented by points. Actual Place names are managed by multiple jurisdictions around Australia, while this ontology provides a meta model to bring their data together in one Linked Data collection."@en ;
                 dc:publisher "Geoscience Australia" ;
