@@ -1,4 +1,6 @@
 # Place Names Ontology
+## This repository has moved to https://github.com/GeoscienceAustralia/Place-Names
+
 This ontology describes Place names that are used in the Composite Gazetteer of Australia. Place names are natural and artificial features and are all represented by points. Actual Place names are managed by multiple jurisdictions around Australia, while this ontology provides a meta model to bring their data together in one Linked Data collection.
 
 This ontology is published in two formats via an [Australian Government Linked Data Working Group](http://www.linked.data.gov.au) Persistent URI:
